@@ -1,0 +1,127 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	list-style: square;
+}
+/* end reset browser styles */
+
+body {
+	width: 966px;
+	margin: 0 auto;	
+	background-color: #FDFCD2;
+}
+h1{
+	font: italic normal 3em Baskerville, "Palatino Linotype", "Times New Roman", serif;
+	color: #46874D;
+	padding-left: 2px;
+}
+.container {
+	width: 966px;
+	margin: 0 auto;
+	padding: 10px 0 30px 0;	
+	text-align: left;
+	position: relative;
+}
+header h1 {
+	font-size: 2.2em;
+	margin: 0 0 10px 0;
+	color: rgb(42,67,101);
+}
+nav li {
+	display: inline;
+}
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: #ff932d;
+	border-radius: 5px;
+	border: 1px solid #c95e00;
+	-moz-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 1px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 1px 0px rgba(255,255,255,0.7);
+	-o-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 1px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 1px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+nav a {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;	
+}
+nav a:hover {
+	background-color: red;
+	-webkit-transform:scale(1.2);	
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform:  scale(1.2);
+	transform: scale(1.2);
+}
+.inventory {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+    table-layout: fixed;
+}
+.inventory caption {
+    font: italic normal 1.5em Baskerville, "Palatino Linotype", "Times New Roman", serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.inventory td, .inventory th {
+  font-size: 1.1em;
+  border: 1px solid #DDB575;
+  padding: 3px 7px 2px 7px;
+}
+.inventory th {
+  text-transform:uppercase;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background: rgb(229,76,16);
+  background: -webkit-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background: -moz-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background: -o-linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  background: linear-gradient(rgb(229,76,16), rgb(173,54,8));
+  color: white;
+}
+.inventory tr:nth-of-type(even){
+  background-color: rgba(255,255,255,.1);
+}
+.inventory tr:nth-of-type(odd){
+  background-color: rgba(229,76,16,.1);
+}
+#FIO {
+  width: 24%;
+}
